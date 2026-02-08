@@ -1,0 +1,35 @@
+{
+  "name": "juweather-mcp-server",
+  "version": "1.0.0",
+  "description": "天气查询 MCP 服务 - 支持中国城市实时天气和预报查询",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "weather-mcp-server": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "inspect": "npx -y @modelcontextprotocol/inspector node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "weather",
+    "weather-mcp",
+    "juhe",
+    "聚合数据",
+    "chinese-weather"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "axios": "^1.13.4"
+  },
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md"
+  ]
+}
